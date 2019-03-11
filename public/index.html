@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web Sockets 101</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container-fluid" id="mario-chat">
+    <h2> Keep Chatting</h2>
+    <div id="chat-window">
+      <div id="output"></div>
+    </div>
+    <input id="handle" type="text" placeholder="Handle"/>
+    <input id="message" type="text" placeholder="Message"/>
+    <button class="btn btn-info btn-lg btn-block mb-2 mt-2" id="send">Send</button>
+  </div>
+
+<script src="chat.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
