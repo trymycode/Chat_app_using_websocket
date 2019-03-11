@@ -1,11 +1,13 @@
 body{
-  font-family: 'sans-serif','Raleway';
+  font-family: 'Merienda', cursive;
 }
 
 h2{
   font-size: 20px;
   padding: 6px 20px;
   color: #5EABC2;
+  font-weight: 700;
+  letter-spacing: 1.5px;
 }
 
 #mario-chat{
@@ -36,7 +38,7 @@ h2{
 }
 
 #output strong{
-  color: #575ed8;
+  color: #808080;
 }
 
 label{
